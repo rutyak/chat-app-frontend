@@ -11,6 +11,7 @@ const App = () => {
       </header>
       <main className="app-main">
         <ChatWindow />
+        
       </main>
       <footer className="app-footer">
         <p>© 2024 AI Financial Assistant | Powered by ChatGPT</p>
