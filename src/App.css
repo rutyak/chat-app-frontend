@@ -72,3 +72,53 @@ body {
 .app-footer a:hover {
   text-decoration: underline;
 }
+
+
+@media (max-width: 768px) {
+  .app {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0px;
+  }
+
+  .app-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .app-header p {
+    font-size: 1rem;
+  }
+
+  .app-main{
+    padding: 0px;
+  }
+
+  .app-footer{
+    font-size: large;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .app {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0px;
+  }
+
+  .app-header h1 {
+    font-size: 1rem;
+  }
+
+  .app-header p {
+    font-size: 0.7rem;
+  }
+
+  .app-main{
+    padding: 0px;
+  }
+
+  .app-footer{
+    font-size: smaller;
+  }
+}
