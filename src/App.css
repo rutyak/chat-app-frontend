@@ -73,7 +73,6 @@ body {
   text-decoration: underline;
 }
 
-
 @media (max-width: 768px) {
   .app {
     width: 100vw;
